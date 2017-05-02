@@ -1,17 +1,17 @@
 a {
-    color: #BF5700;
+    color: #FF3333;
     text-decoration: none;
 }
 a:hover,
 a:focus {
-    color: #BF5700;
+    color: #FF3333;
     text-decoration: underline;
 }
 a.text-theme:hover {
     color: #964B00;
 }
 .bg-theme {
-    background-color: #BF5700;
+    background-color: #FF3333;
 }
 a.bg-theme:hover {
     background-color: #964B00;
@@ -32,7 +32,7 @@ mark {
 .table > thead > tr.theme > th,
 .table > tbody > tr.theme > th,
 .table > tfoot > tr.theme > th {
-    background-color: #BF5700;
+    background-color: #FF3333;
 }
 .table-hover > tbody > tr > td.theme:hover,
 .table-hover > tbody > tr > th.theme:hover,
@@ -42,8 +42,8 @@ mark {
 }
 .btn-theme {
     color: #ffffff;
-    background-color: #BF5700;
-    border-color: #BF5700;
+    background-color: #FF3333;
+    border-color: #FF3333;
 }
 .btn-theme:hover,
 .btn-theme:focus,
@@ -74,15 +74,15 @@ fieldset[disabled] .btn-theme:active,
 .btn-theme.disabled.active,
 .btn-theme[disabled].active,
 fieldset[disabled] .btn-theme.active {
-    background-color: #BF5700;
-    border-color: #BF5700;
+    background-color: #FF3333;
+    border-color: #FF3333;
 }
 .btn-theme .badge {
-    color: #BF5700;
+    color: #FF3333;
     background-color: #ffffff;
 }
 .btn-link {
-    color: #BF5700;
+    color: #FF3333;
     font-weight: normal;
     cursor: pointer;
     border-radius: 0;
@@ -90,7 +90,7 @@ fieldset[disabled] .btn-theme.active {
 
 .btn-link:hover,
 .btn-link:focus {
-    color: #BF5700;
+    color: #FF3333;
     text-decoration: underline;
     background-color: transparent;
 }
@@ -100,19 +100,19 @@ fieldset[disabled] .btn-theme.active {
     color: #ffffff;
     text-decoration: none;
     outline: 0;
-    background-color: #BF5700;
+    background-color: #FF3333;
 }
 .nav .open > a,
 .nav .open > a:hover,
 .nav .open > a:focus {
     background-color: #222222;
-    border-color: #BF5700;
+    border-color: #FF3333;
 }
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
     color: #ffffff;
-    background-color: #BF5700;
+    background-color: #FF3333;
     border: 1px solid #282828;
     border-bottom-color: transparent;
     cursor: default;
@@ -121,14 +121,14 @@ fieldset[disabled] .btn-theme.active {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
     color: #ffffff;
-    background-color: #BF5700;
+    background-color: #FF3333;
 }
 .pagination > li > a:hover,
 .pagination > li > span:hover,
 .pagination > li > a:focus,
 .pagination > li > span:focus {
     color: #ffffff;
-    background-color: #BF5700;
+    background-color: #FF3333;
     border-color: transparent;
 }
 .pagination > .active > a,
@@ -139,17 +139,17 @@ fieldset[disabled] .btn-theme.active {
 .pagination > .active > span:focus {
     z-index: 2;
     color: #ffffff;
-    background-color: #BF5700;
+    background-color: #FF3333;
     border-color: transparent;
     cursor: default;
 }
 .pager li > a:hover,
 .pager li > a:focus {
     text-decoration: none;
-    background-color: #BF5700;
+    background-color: #FF3333;
 }
 .label-theme {
-    background-color: #BF5700;
+    background-color: #FF3333;
 }
 .label-theme[href]:hover,
 .label-theme[href]:focus {
@@ -166,21 +166,21 @@ fieldset[disabled] .btn-theme.active {
     vertical-align: baseline;
     white-space: nowrap;
     text-align: center;
-    background-color: #BF5700;
+    background-color: #FF3333;
     border-radius: 10px;
 }
 a.list-group-item.active > .badge,
 .nav-pills > .active > a > .badge {
-    color: #BF5700;
+    color: #FF3333;
     background-color: #ffffff;
 }
 a.thumbnail:hover,
 a.thumbnail:focus,
 a.thumbnail.active {
-    border-color: #BF5700;
+    border-color: #FF3333;
 }
 .alert-theme {
-    background-color: #BF5700;
+    background-color: #FF3333;
     border-color: #964B00;
     color: #ffffff;
 }
@@ -191,7 +191,7 @@ a.thumbnail.active {
     color: #e6e6e6;
 }
 .progress-bar-theme {
-    background-color: #BF5700;
+    background-color: #FF3333;
 }
 .progress-striped .progress-bar-theme {
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -202,12 +202,12 @@ a.list-group-item.active:hover,
 a.list-group-item.active:focus {
     z-index: 2;
     color: #ffffff;
-    background-color: #BF5700;
-    border-color: #BF5700;
+    background-color: #FF3333;
+    border-color: #FF3333;
 }
 .list-group-item-theme {
     color: #ffffff;
-    background-color: #BF5700;
+    background-color: #FF3333;
 }
 a.list-group-item-theme {
     color: #ffffff;
@@ -232,7 +232,7 @@ a.list-group-item-theme.active:focus {
 }
 .panel-theme > .panel-heading {
     color: #ffffff;
-    background-color: #BF5700;
+    background-color: #FF3333;
     border-color: #964B00;
 }
 .panel-theme > .panel-heading + .panel-collapse .panel-body {
@@ -243,7 +243,7 @@ a.list-group-item-theme.active:focus {
 }
 .text-theme,
 .text-theme:hover {
-    color: #BF5700;
+    color: #FF3333;
 }
 
 .timeline-badge.theme {
@@ -251,13 +251,13 @@ a.list-group-item-theme.active:focus {
 }
 
 .selected {
-    border-left:7px solid #BF5700;
+    border-left:7px solid #FF3333;
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
     text-decoration: none;
     color: #ffffff;
-    background-color: #BF5700;
+    background-color: #FF3333;
 }
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
@@ -265,7 +265,7 @@ a.list-group-item-theme.active:focus {
     color: #ffffff;
     text-decoration: none;
     outline: 0;
-    background-color: #BF5700;
+    background-color: #FF3333;
 }
 .scrollable-menu {
     height: auto;
@@ -324,7 +324,7 @@ a.list-group-item-theme.active:focus {
 
 .form-control{
     background-color: #f2f2f2;
-    border : 1px solid #BF5700;
+    border : 1px solid #FF3333;
     }
 
 .form-control:focus {
