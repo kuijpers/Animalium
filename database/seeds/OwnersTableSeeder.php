@@ -11,6 +11,13 @@ class OwnersTableSeeder extends Seeder
      */
     public function run()
     {
-        //
+		DB::table('owners')->insert([
+			'name'        	=> 'Dennis Kuijpers',
+			'email'         => 'dennis@test.nl',
+			'job_title'     => 'admin',
+			'password'      => bcrypt('welkom'),
+			'created_at'	=> date('Y-m-d H:i:s'),
+			'updated_at'    => date('Y-m-d H:i:s'),
+		]);
     }
 }
