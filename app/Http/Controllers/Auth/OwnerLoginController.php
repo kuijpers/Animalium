@@ -7,5 +7,9 @@ use App\Http\Controllers\Controller;
 
 class OwnerLoginController extends Controller
 {
-    //
+
+
+	public function showLoginForm(){
+		return view('auth.owner-login');
+	}
 }
