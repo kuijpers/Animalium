@@ -7,9 +7,14 @@ use App\Http\Controllers\Controller;
 
 class OwnerLoginController extends Controller
 {
+	public function __construct()
+	{
+		$this->middleware('guest:owner');
+	}
 
 
-	public function showLoginForm(){
+	public function showLoginForm()
+	{
 		return view('auth.owner-login');
 	}
 }
